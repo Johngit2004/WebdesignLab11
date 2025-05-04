@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fffdf8;
+}
+
+.tophead {
+  background-color: #FADADD;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.headcontent {
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.tophead button {
+  border: none;
+  background: #FFFACD;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 60px 20px;
+}
+
+.foodrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.Food, .House {
+  font-weight: bold;
+  text-align: center;
+  font-size: 32px;
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Food.left {
+  background: #FFEBE8;
+}
+
+.Food.right {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+
+.House.left {
+  background: #E0F7FA;
+}
+
+.House.right {
+  background: none;
+  border: none;
+  box-shadow: none;
+  width: 400px;
+  height: auto; 
+}
+
+.Food.right img,
+.House.right img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
